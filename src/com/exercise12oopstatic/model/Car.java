@@ -55,7 +55,7 @@ private String brand;
 	
 	public String toString()
 	{
-		return "Serial number: "+this.serialNumber+" numberDoors: "+numberDoors;
+		return "Serial number: "+this.serialNumber+" numberDoors: "+numberDoors+" brand: "+brand;
 	}
 
 }
