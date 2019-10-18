@@ -28,6 +28,7 @@ public class CarApp
 		crisCar.setSerialNumber("4");
 		crisCar.setNumberDoors(2);//cuando no es estatico le pertenece al objeto
 		crisCar.setBrand("Nissan");// cuando es static le pertenece a la clase
+		
 		//ejemplo de cambio si es coupe o no poniendolo como static
 		crisCar.CarIsCoupe(true);
 		
