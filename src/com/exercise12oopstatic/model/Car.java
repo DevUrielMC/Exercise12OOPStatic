@@ -2,8 +2,10 @@ package com.exercise12oopstatic.model;
 
 public class Car {
 	private String serialNumber;
-	private int numberDoors;
-	pribvate boolean isCoupe=false;
+	private  int numberDoors;
+	private boolean isCoupe=false;
+	
+private String brand;
 	
 	public Car()
 	{
@@ -37,6 +39,23 @@ public class Car {
 	public void CarIsCoupe(boolean isCoupe)
 	{
 		this.isCoupe=isCoupe;
+			if (this.isCoupe)
+			{
+				this.numberDoors=2;
+			}
+	}
+	public String getBrand()
+	{
+		return this.brand;
+	}
+	public void setBrand(String brand)
+	{
+		this.brand=brand;
+	}
+	
+	public String toString()
+	{
+		return "Serial number: "+this.serialNumber+" numberDoors: "+numberDoors;
 	}
 
 }
